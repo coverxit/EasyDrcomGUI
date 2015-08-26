@@ -167,5 +167,5 @@ public:
 // functions
 	void ResetOnlineTime();
 	void GatewayNotificate(CString string, CString type);
-	bool CheckIsOnline();
+	//bool CheckIsOnline();
 };
