@@ -1,0 +1,3 @@
+[submodule "STPrivilegedTask"]
+	path = STPrivilegedTask
+	url = https://github.com/sveinbjornt/STPrivilegedTask.git
