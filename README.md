@@ -2,7 +2,7 @@
 GUI Wrapper for **[EasyDrcom](https://github.com/coverxit/EasyDrcom)**, which is a 3rd Party Dr.COM Client for HITwh.
 
 ## Description
-**本分支（MacOS）用于存放 Mac OS 版 EasyDrcomGUI 的源代码。若您需要获取发行版，请移步至 [master 分支](https://github.com/coverxit/EasyDrcomGUI)。**
+**本分支（Linux）用于存放 Linux (64-bit) 版 EasyDrcomGUI 的源代码。若您需要获取发行版，请移步至 [master 分支](https://github.com/coverxit/EasyDrcomGUI)。**
 
 **若您需要获取其他平台源代码，请根据所需平台移步至对应分支：**
 
