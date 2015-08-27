@@ -60,7 +60,7 @@ EasyDrcomGUI 开发的初衷是为了提供**另一种途径(alternative way)**�
 <table>
 	<tbody>
 		<tr>
-			<td><strong>Windows</strong></td><td><strong>Mac OS X</strong></td><td><strong>Linux (64-bit)*</strong></td>
+			<td><strong>Windows</strong></td><td><strong>Mac OS X</strong></td><td><strong>Linux (64-bit)</strong></td>
 		</tr>
 		<tr>
 			<td>Windows 10</td><td>OS X 10.11 El Capitan</td><td>Ubuntu 15.04 "Vivid Vervet"</td>
