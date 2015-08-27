@@ -1,21 +1,6 @@
 # EasyDrcomGUI
 GUI Wrapper for **[EasyDrcom](https://github.com/coverxit/EasyDrcom)**, which is a 3rd Party Dr.COM Client for HITwh.
 
-## License
-	Copyright (C) 2014, 2015 Shindo 
-	
-	Licensed under the Apache License, Version 2.0 (the "License");
-	you may not use this file except in compliance with the License.
-	You may obtain a copy of the License at
-	
-		http://www.apache.org/licenses/LICENSE-2.0
-	
-	Unless required by applicable law or agreed to in writing, software
-	distributed under the License is distributed on an "AS IS" BASIS,
-	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-	See the License for the specific language governing permissionss and
-	limitations under the License.
-
 ## Description
 **本分支（master）用于存放针对各平台的 EasyDrcomGUI 发行版。若您需要获取源代码，请根据所需平台移步至对应分支：**
 
@@ -49,7 +34,7 @@ EasyDrcomGUI 开发的初衷是为了提供**另一种途径(alternative way)**�
 不同平台的 EasyDrcomGUI 依赖于不同的库，使用前请确认您已经安装依赖库。
  
 * Windows版：[WinPcap](https://github.com/coverxit/EasyDrcomGUI/blob/master/Windows/WinPcap_4_1_3.exe?raw=true), 对于Windows 10用户：[Win10Pcap](https://github.com/coverxit/EasyDrcomGUI/blob/master/Windows/Win10Pcap-v10.1-5001.msi?raw=true)
-* Mac OS版：暂无
+* Mac OS版：libpcap（已内建于Mac OS）
 * Linux (64-bit)版：
 	* libc6
 	* libqt5gui5
@@ -101,3 +86,130 @@ EasyDrcomGUI 开发的初衷是为了提供**另一种途径(alternative way)**�
 * May 17, 2015 - OSX版更新至1.2，修复初始化访问无效内存的BUG，感谢@liuchang988。
 * May 17, 2015 - Windows、OSX版更新至1.1，增加“Authentication Fail ErrCode=05”对应的中文提示。
 * May 17, 2015 - 发布EasyDrcom GUI For Windows v1.0、EasyDrcom GUI For Mac OSX v1.0.
+
+## License
+EasyDrcomGUI License:
+
+	Copyright (C) 2014, 2015 Shindo 
+	
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+	
+		http://www.apache.org/licenses/LICENSE-2.0
+	
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissionss and
+	limitations under the License.
+
+glibc License:
+
+	GNU C Library is licensed under GNU Lesser General Public License.
+	
+	This library is free software; you can redistribute it and/or modify it
+	under the terms of the GNU Lesser General Public License as published by
+	the Free Software Foundation; either version 2.1 of the License, or (at
+	your option) any later version.
+	
+	This library is distributed in the hope that it will be useful, but
+	WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+	Lesser General Public License for more details.
+	
+	You should have received a copy of the GNU Lesser General Public
+	License along with this library; if not, write to the Free Software
+	Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301,
+	USA.
+	
+Qt License:
+
+	This program uses Qt version 5.2.1.
+
+	Qt is a C++ toolkit for cross-platform application development.
+	Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.
+	Qt is available under three different licensing options designed to accommodate the needs of our various users.
+	Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 2.1 or GNU GPL version 3.0.
+	Qt licensed under the GNU LGPL version 2.1 is appropriate for the development of Qt applications provided you can comply with the terms and conditions of the GNU LGPL version 2.1.
+	Qt licensed under the GNU General Public License version 3.0 is appropriate for the development of Qt applications where you wish to use such applications in combination with software subject to the terms of the GNU GPL version 3.0 or where you are otherwise willing to comply with the terms of the GNU GPL version 3.0.
+	Please see qt.digia.com/Product/Licensing for an overview of Qt licensing.
+	Copyright (C) 2013 Digia Plc and/or its subsidiary(-ies) and other contributors.
+	Qt and the Qt logo are trademarks of Digia Plc and/or its subsidiary(-ies).
+	Qt is developed as an open source project on qt-project.org.
+	Qt is a Digia product. See qt.digia.com for more information.
+
+libpcap License:
+
+	License: BSD
+	
+	Redistribution and use in source and binary forms, with or without
+	modification, are permitted provided that the following conditions
+	are met:
+	
+	  1. Redistributions of source code must retain the above copyright
+	     notice, this list of conditions and the following disclaimer.
+	  2. Redistributions in binary form must reproduce the above copyright
+	     notice, this list of conditions and the following disclaimer in
+	     the documentation and/or other materials provided with the
+	     distribution.
+	  3. The names of the authors may not be used to endorse or promote
+	     products derived from this software without specific prior
+	     written permission.
+	
+	THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR
+	IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+	WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+
+STPrivilegedTask License:
+
+	STPrivilegedTask - NSTask-like wrapper around AuthorizationExecuteWithPrivileges
+	Copyright (C) 2009-2015 Sveinbjorn Thordarson <sveinbjornt@gmail.com>
+	 
+	BSD License
+	Redistribution and use in source and binary forms, with or without
+	modification, are permitted provided that the following conditions are met:
+	     * Redistributions of source code must retain the above copyright
+	       notice, this list of conditions and the following disclaimer.
+	     * Redistributions in binary form must reproduce the above copyright
+	       notice, this list of conditions and the following disclaimer in the
+	       documentation and/or other materials provided with the distribution.
+	     * Neither the name of Sveinbjorn Thordarson nor that of any other
+	       contributors may be used to endorse or promote products
+	       derived from this software without specific prior written permission.
+	  
+	THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+	ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+	WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+	DISCLAIMED. IN NO EVENT SHALL  BE LIABLE FOR ANY
+	DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+	(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+	LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+	ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+	(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+	SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+WinPcap License:
+
+	Copyright (c) 1999 - 2005 NetGroup, Politecnico di Torino (Italy).
+	Copyright (c) 2005 - 2010 CACE Technologies, Davis (California).
+	All rights reserved.
+	
+	Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+	
+	1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. 
+	2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. 
+	3. Neither the name of the Politecnico di Torino, CACE Technologies nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission. 
+	
+	THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+WTL License:
+
+	Copyright © 2014 Microsoft Corporation, WTL Team. All rights reserved.
+	 
+	This file is a part of the Windows Template Library.
+	The use and distribution terms for this software are covered by the
+	Common Public License 1.0 (http://opensource.org/licenses/cpl1.0.php).
+	By using this software in any fashion, you are agreeing to be bound by
+	the terms of this license. You must not remove this notice, or
+	any other, from this software.
