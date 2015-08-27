@@ -17,8 +17,7 @@ GUI Wrapper for **[EasyDrcom](https://github.com/coverxit/EasyDrcom)**, which is
 	limitations under the License.
 
 ## Description
-**本分支（master）用于存放针对各平台的 EasyDrcomGUI 发行版。
-若您需要获取源代码，请根据所需平台移步至对应分支：**
+**本分支（master）用于存放针对各平台的 EasyDrcomGUI 发行版。若您需要获取源代码，请根据所需平台移步至对应分支：**
 
 * Windows：[Win32分支](https://github.com/coverxit/EasyDrcomGUI/tree/Win32)
 * Mac OS：[MacOS分支](https://github.com/coverxit/EasyDrcomGUI/tree/MacOS)
