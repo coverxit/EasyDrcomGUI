@@ -28,7 +28,7 @@
 #include "PcapHelper.hpp"
 #include "CancellableThread.h"
 
-#define CURRENT_VERSION "1.2"
+#define CURRENT_VERSION "1.3"
 
 namespace Ui {
 class MainWindow;

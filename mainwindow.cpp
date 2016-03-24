@@ -496,7 +496,7 @@ void MainWindow::ThreadStuDistConnect::run()
         try
         {
             udp = new drcom_dealer_u62(str_mac_to_vec(dlg->m_szStoredMAC.toStdString()), dlg->m_szStoredIP.toStdString(),
-                                       dlg->m_szStoredUserName.toStdString(), dlg->m_szStoredPassWord.toStdString(), "172.25.8.4", 61440, "EasyDrcomGUI", "v1.0 for Linux");
+                                       dlg->m_szStoredUserName.toStdString(), dlg->m_szStoredPassWord.toStdString(), "172.25.8.4", 61440, "EasyDrcomGUI", "for Linux, Core v0.9");
         }
         catch (std::exception &ex)
         {
@@ -730,7 +730,7 @@ void MainWindow::ThreadWorkDistConnect::run()
         try
         {
             udp = new drcom_dealer_u31(str_mac_to_vec(dlg->m_szStoredMAC.toStdString()), dlg->m_szStoredIP.toStdString(),
-                                       dlg->m_szStoredUserName.toStdString(), dlg->m_szStoredPassWord.toStdString(), "172.25.8.4", 61440, "EasyDrcomGUI", "v1.0 for Linux");
+                                       dlg->m_szStoredUserName.toStdString(), dlg->m_szStoredPassWord.toStdString(), "172.25.8.4", 61440, "EasyDrcomGUI", "for Linux, Core v0.9");
         }
         catch (std::exception &ex)
         {
