@@ -9,9 +9,10 @@ GUI Wrapper for **[EasyDrcom](https://github.com/coverxit/EasyDrcom)**, which is
 * Linux：[Linux分支](https://github.com/coverxit/EasyDrcomGUI/tree/Linux)
 
 ## Current Version
-* Windows：**v1.6**，[Download](https://github.com/coverxit/EasyDrcomGUI/blob/master/Windows/EasyDrcomGUI_v1.6_For_Windows_XP_SP3_or_higher.zip?raw=true)
-* Mac OS：**v1.6**，[Download](https://github.com/coverxit/EasyDrcomGUI/blob/master/Mac%20OS/EasyDrcomGUI_v1.6_For_OSX_10.9_or_higher.zip?raw=true)
-* Linux (64-bit)：**v1.2**，[Download](https://github.com/coverxit/EasyDrcomGUI/blob/master/Linux%20(64-bit)/EasyDrcomGUI_v1.2_For_Ubuntu_14.04_or_higher.zip?raw=true)
+* Windows：**v1.7**，[Download](https://github.com/coverxit/EasyDrcomGUI/blob/master/Windows/EasyDrcomGUI_v1.7_For_Windows_XP_SP3_or_higher.zip?raw=true)
+* Mac OS：**v1.7**，[Download](https://github.com/coverxit/EasyDrcomGUI/blob/master/Mac%20OS/EasyDrcomGUI_v1.7_For_OSX_10.9_or_higher.zip?raw=true)
+* Ubuntu (64-bit)：**v1.3**，[Download](https://github.com/coverxit/EasyDrcomGUI/blob/master/Linux%20(64-bit)/EasyDrcomGUI_v1.3_For_Ubuntu_14.04_or_higher.zip?raw=true)
+* General Linux (64-bit)：**v1.3**，[Download](https://github.com/coverxit/EasyDrcomGUI/blob/master/Linux%20(64-bit)/EasyDrcomGUI_v1.3_For_General_Linux.zip?raw=true)
 
 ## Introduction
 EasyDrcomGUI 是 EasyDrcom（获取详情请[点击这里](http://bbs.ghtt.net/thread-1984091-1-1.html)）的衍生作品，是 EasyDrcom 的图形界面版，可用于学生区、教学区、家属区，可运行在 Windows、Mac OSX 和 Linux 等主流操作系统上，Windows、Mac OSX 和 Linux 版均已发布。
@@ -77,6 +78,7 @@ EasyDrcomGUI 开发的初衷是为了提供**另一种途径(alternative way)**�
 * 注3：Linux版仅提供64位(x86_64/amd64)版，目前仅作者保证对Ubuntu LTS版(14.04以上)的支持。
 
 ## Change Log
+* March 24, 2016 - Windows、OSX版更新至1.7，Linux版更新至1.3，发布EasyDrcom GUI For Linux通用版 v1.3，增强办公区连接稳定性，解决办公区“发送心跳包失败”问题。
 * July 15, 2015 - Windows、OSX版更新至1.6，Linux版更新至1.2，增加分别保存学生区和办公区网卡、用户名、密码的功能。
 * July 13, 2015 - Windows、OSX版更新至1.5，Linux版更新至1.1，增强连接稳定性，降低“发现心跳包失败”可能性。
 * July 4, 2015 - 发布EasyDrcom GUI For Linux v1.0.
@@ -90,7 +92,7 @@ EasyDrcomGUI 开发的初衷是为了提供**另一种途径(alternative way)**�
 ## License
 EasyDrcomGUI License:
 
-	Copyright (C) 2014, 2015 Shindo 
+	Copyright (C) 2014 - 2016 Shindo 
 	
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
