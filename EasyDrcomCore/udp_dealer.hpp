@@ -142,7 +142,7 @@ private:
         FD_SET(sock, &fds);
         
         tv.tv_usec = 0;
-        tv.tv_sec = 2; // default: 2000 ms
+        tv.tv_sec = 5; // default: 5000 ms
         
         return select(sock + 1, &fds, NULL, NULL, &tv);
     }
