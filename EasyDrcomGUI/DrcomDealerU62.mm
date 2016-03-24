@@ -58,7 +58,7 @@ std::vector<uint8_t> nearest_mac = { 0x01, 0x80, 0xc2, 0x00, 0x00, 0x03 };
         }
         
         try {
-            udp = std::shared_ptr<drcom_dealer_u62>(new drcom_dealer_u62(str_mac_to_vec([mac UTF8String]), [ip UTF8String], [userName UTF8String], [passWord UTF8String], "172.25.8.4", 61440, "EasyDrcomGUI", "v1.0 for Mac OSX"));
+            udp = std::shared_ptr<drcom_dealer_u62>(new drcom_dealer_u62(str_mac_to_vec([mac UTF8String]), [ip UTF8String], [userName UTF8String], [passWord UTF8String], "172.25.8.4", 61440, "EasyDrcomGUI", "for Mac OSX"));
         } catch (std::exception& ex) {
             U62_LOG_ERR(ex.what() << std::endl);
             throw easy_drcom_exception(ex.what()); // throw out to the loop
