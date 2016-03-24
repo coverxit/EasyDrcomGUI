@@ -46,7 +46,7 @@
     {
         try
         {
-            udp = std::shared_ptr<drcom_dealer_u31>(new drcom_dealer_u31(str_mac_to_vec([mac UTF8String]), [ip UTF8String], [userName UTF8String], [passWord UTF8String], "172.25.8.4", 61440, "EasyDrcom for HITwh", "v0.8 GUI for Mac OSX"));
+            udp = std::shared_ptr<drcom_dealer_u31>(new drcom_dealer_u31(str_mac_to_vec([mac UTF8String]), [ip UTF8String], [userName UTF8String], [passWord UTF8String], "172.25.8.4", 61440, "EasyDrcomGUI", "Mac OSX, Core v0.9"));
         }
         catch (std::exception& ex)
         {
