@@ -53,8 +53,8 @@ END
 //
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 1,6,0,0
- PRODUCTVERSION 1,6,0,0
+ FILEVERSION 1,7,0,0
+ PRODUCTVERSION 1,7,0,0
  FILEFLAGSMASK 0x3fL
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -69,13 +69,13 @@ BEGIN
     BEGIN
         BLOCK "080404b0"
         BEGIN
-            VALUE "FileDescription", "EasyDrcomGUI Module"
-            VALUE "FileVersion", "1.6.0.0"
+            VALUE "FileDescription", "EasyDrcomGUI"
+            VALUE "FileVersion", "1.7.0.0"
             VALUE "InternalName", "EasyDrcomGUI"
-            VALUE "LegalCopyright", "Copyright 2015"
+            VALUE "LegalCopyright", "Copyright 2016"
             VALUE "OriginalFilename", "EasyDrcomGUI.exe"
-            VALUE "ProductName", "EasyDrcomGUI Module"
-            VALUE "ProductVersion", "1.6.0.0"
+            VALUE "ProductName", "EasyDrcomGUI"
+            VALUE "ProductVersion", "1.7.0.0"
         END
     END
     BLOCK "VarFileInfo"

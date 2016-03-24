@@ -658,7 +658,7 @@ DWORD CMainDlg::CThreadStuDistConnect::Run()
 
 		try {
 			udp = new drcom_dealer_u62(str_mac_to_vec(CSTRING_TO_STD(dlg->m_szStoredMAC)), CSTRING_TO_STD(dlg->m_szStoredIP),
-				CSTRING_TO_STD(dlg->m_szStoredUserName), CSTRING_TO_STD(dlg->m_szStoredPassWord), "172.25.8.4", 61440, "EasyDrcomGUI", "v1.0 for Win32");
+				CSTRING_TO_STD(dlg->m_szStoredUserName), CSTRING_TO_STD(dlg->m_szStoredPassWord), "172.25.8.4", 61440, "EasyDrcomGUI", "for Win32, Core v0.9");
 		}
 		catch (std::exception& ex) {
 			U62_LOG_ERR(ex.what() << std::endl);
@@ -899,7 +899,7 @@ DWORD CMainDlg::CThreadWorkDistConnect::Run()
 		try {
 #define CSTRING_TO_STD(x) std::string(CT2CA(x))
 			udp = new drcom_dealer_u31(str_mac_to_vec(CSTRING_TO_STD(dlg->m_szStoredMAC)), CSTRING_TO_STD(dlg->m_szStoredIP),
-				CSTRING_TO_STD(dlg->m_szStoredUserName), CSTRING_TO_STD(dlg->m_szStoredPassWord), "172.25.8.4", 61440, "EasyDrcomGUI", "v1.0 for Win32");
+				CSTRING_TO_STD(dlg->m_szStoredUserName), CSTRING_TO_STD(dlg->m_szStoredPassWord), "172.25.8.4", 61440, "EasyDrcomGUI", "for Win32, Core v0.9");
 #undef CSTRING_TO_STD
 		}
 		catch (std::exception&) {
